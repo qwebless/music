@@ -1,0 +1,112 @@
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #1d1c1c;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+.album{
+    height: 350px;
+    width: 350px;
+}
+
+.alb{
+    border-radius: 15px;
+}
+
+.name{
+    margin-top: 50px;
+    margin-right: 270px;
+}
+
+.name span{
+    color: gray;
+    padding-left: 5px;
+}
+
+.first{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    letter-spacing: -2px;
+    padding-top: 30px;
+}
+
+.second{
+
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+
+
+.card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.track-album{
+    height: 130px;
+    width: 130px;
+}
+
+.track-logo{
+    border-radius: 360px;
+}
+
+.track-name{
+    padding-right: 500px;
+}
+
+.time{
+    font-size: 22px;
+    padding-right: 30px;
+}
+
+.track-card{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 4px;
+    border-radius: 40px;
+    border-color: white;
+}
+
+.track-card:hover{
+    color: rgb(138, 139, 139);
+    border-color: rgb(92, 92, 92);
+}
+
+.text-intro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
